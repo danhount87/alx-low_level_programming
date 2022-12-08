@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * Our program want to show a message
- * without us using the printf function
+ * main - main block
+ * Return: 0
  */
 int main(void)
-        {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
-	}
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
