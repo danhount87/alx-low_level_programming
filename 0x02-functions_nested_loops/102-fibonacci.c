@@ -2,7 +2,8 @@
 
 /**
  * main - main block
- * Print the first 50 fibonacci numbers
+ * Description: Prints first 50 Fibonacci numbers, starting with 1 and 2,
+ * separated by a comma followed by a space.
  * return: 0
  */
 
