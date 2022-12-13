@@ -3,6 +3,7 @@
 /**
  * _islower - Entry point
  * Our function checks for lowercase character.
+ * @c : this character will be checked
  * Return: 1 or 0
  */
 
