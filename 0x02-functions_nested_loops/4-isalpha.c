@@ -3,7 +3,7 @@
 /**
  * _isalpha - Entry point
  * function checks for alphabetic character.
- * @c: character will be checked.
+ * @c : character to be checked
  * return: 0 or 1
  */
 int _isalpha(int c)
