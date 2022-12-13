@@ -2,9 +2,9 @@
 
 /**
  * _isalpha - Entry point
- * function checks for alphabetic character.
- * @c : character to be checked
- * return: 0 or 1
+ * Our function checks for alphabetic character.
+ * @c : this character will be checked
+ * return: 1 or 0
  */
 int _isalpha(int c)
 {
