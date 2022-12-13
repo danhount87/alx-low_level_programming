@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print the first 50 fibonacci numbers
+ * main - main block
+ * Print the first 50 fibonacci numbers
  * return: 0
  */
 
@@ -16,8 +17,7 @@ int main(void)
 		c = d;
 		d = nt;
 		printf("%lu", nt);
-		
-		if (j <49)
+		if (j < 49)
 		{
 			printf(", ");
 		}
