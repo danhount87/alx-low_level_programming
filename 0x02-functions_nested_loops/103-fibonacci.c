@@ -16,8 +16,8 @@ int main(void)
 		c = d;
 		d = nt;
 		if (nt % 2 == 0)
-			sum += next;
+			s += nt;
 	}
-	printf("%i\n", sum);
+	printf("%i\n", s);
 	return (0);
 }
