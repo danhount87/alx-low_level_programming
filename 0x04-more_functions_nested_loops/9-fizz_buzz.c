@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - Fizz-Buzz test is an interview question
+ *
  * Return: void.
  */
 
