@@ -31,7 +31,7 @@ int main(void)
 
 if (j != 100)
 {
-printf(' ');
+putchar(' ');
 }
 
 j++;
