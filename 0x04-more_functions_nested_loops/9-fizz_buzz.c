@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - “Fizz-Buzz test” is an interview question
- * Return: 0
+ * main - Fizz-Buzz test is an interview question
+ * Return: void.
  */
 
 int main(void)
