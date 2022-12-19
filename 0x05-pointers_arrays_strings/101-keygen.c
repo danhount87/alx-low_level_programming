@@ -19,7 +19,7 @@ int main(void)
 
 	for (j = 0; j < 100; j++)
 	{
-		ps[i] = rand() % 78;
+		ps[j] = rand() % 78;
 		sm += (ps[j] + '0');
 		putchar(ps[j] + '0');
 		if ((2772 - sm) - '0' < 78)
