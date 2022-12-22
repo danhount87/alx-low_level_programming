@@ -19,7 +19,7 @@ char *cap_string(char *str)
 		    str[dx - 1] == ',' || str[dx - 1] == ';' || str[dx - 1] == '.' ||
 		    str[dx - 1] == '!' || str[dx - 1] == '?' || str[dx - 1] == '"' ||
 		    str[dx - 1] == '(' || str[dx - 1] == ')' || str[dx - 1] == '{' ||
-		    str[dx - 1] == '}' || index == 0)
+		    str[dx - 1] == '}' || dx == 0)
 			str[dx] -= 32;
 
 		dx++;
