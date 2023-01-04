@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * lt_ind - returns the last index of a string
