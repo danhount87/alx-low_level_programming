@@ -24,7 +24,7 @@ int lt_ind(char *s)
 
 int is_palindrome(char *s)
 {
-	int end = lt_ind(s);
+	int ed = lt_ind(s);
 
 	return (vef(s, 0, ed - 1, ed % 2));
 }
