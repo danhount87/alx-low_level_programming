@@ -13,23 +13,29 @@
 
 int main(int argc, char *argv[])
 {
-	int nm, dgt, sm = 0;
+	unsigned int j, sm, nm;
 
-	for (nm = 1; nm < argc; nm++)
+	sm = 0;
+
+	if (argc < 3)
 	{
-		for (dgt = 0; argv[num][dgt]; dgt++)
-		{
-			if (argv[nm][dgt] < '0' || argv[nm][dgt] > '9')
+		printf("%d\n", 0);
+		return (0);
+	}
+	while (argc-- && argc > 0)
+	{
+		for (j = 0; argv[argc][j] != '\0'; j++)
+		{	
+			if (!(isdigit(argv[argc][j])))
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
 
-		sm += atoi(argv[nm]);
+		nm = atoi(argv[argc]);
+		sm += nm;
 	}
-
 	printf("%d\n", sm);
-
-	return (0);
+	return (sm);
 }
