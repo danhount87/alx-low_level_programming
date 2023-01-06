@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
  * main - Prints the addition of positive numbers,
@@ -8,6 +10,7 @@
  * @argv: array of pointers.
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int nm, dgt, sm = 0;
