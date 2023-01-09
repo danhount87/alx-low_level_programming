@@ -17,7 +17,7 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	while (x < ac)
 	{
-		b = 0;
+		y = 0;
 		while (av[x][y] != '\0')
 		{
 			cnt++;
