@@ -9,7 +9,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *fub;
+	char *buffer;
 	unsigned int notice;
 
 	if (size == 0)
@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	/*we will define the values with malloc right below*/
-	fub = (char *) malloc(size * sizeof(c));
+	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
 	{
@@ -30,11 +30,11 @@ char *create_array(unsigned int size, char c)
 		notice = 0;
 		while (notice < size)
 		{
-			*(fub + notice) = c;
+			*(buffer + notice) = c;
 			notice++;
 		}
 
-		return (fub);
+		return (buffer);
 	}
 
 }
