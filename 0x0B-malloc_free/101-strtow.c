@@ -45,6 +45,10 @@ char **strtow(char *str)
 	if (wods == 0)
 		return (NULL);
 
+	mtx = (char **) malloc(sizeof(char *) * (wods + 1));
+	if (mtx == NULL)
+		return (NULL);
+
 	for (i = 0; i <= l; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
