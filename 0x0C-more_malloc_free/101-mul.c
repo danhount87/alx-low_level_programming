@@ -51,7 +51,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	for (j = 0; j < (size * nmemb); j++)
-		tab[j] = '0';
+		bat[j] = '0';
 
 	return (bat);
 }
