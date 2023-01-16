@@ -1,6 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
-/* @zinzinpolice */
+
 /**
  * struct dog - a dog's basic info
  * @name: 1st member
