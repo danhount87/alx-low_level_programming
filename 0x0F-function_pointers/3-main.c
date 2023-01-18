@@ -7,6 +7,7 @@
  * main - Prints the result.
  * @argc: The number of arguments
  * @argv: An array of pointers
+ * Return: 0
  */
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
