@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (rng == NULL)
 			printf("(nil)");
 		else
-			printf("%s", str);
+			printf("%s", rng);
 
 		if (ide != (n - 1) && separator != NULL)
 			printf("%s", separator);
