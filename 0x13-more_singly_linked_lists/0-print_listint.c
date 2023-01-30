@@ -17,5 +17,6 @@ size_t print_listint(const listint_t *h)
 		publ++;
 		h = h->next;
 	}
+
 	return (publ);
 }
