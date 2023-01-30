@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /* @zinzinpolice */
 /**
  * print_listint - function that prints all
