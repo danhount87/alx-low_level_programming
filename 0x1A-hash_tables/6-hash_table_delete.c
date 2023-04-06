@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /*@zinzinpolice*/
 /**
- * hash_table_delete - 
+ * hash_table_delete - function that deletes a hash table.
  * @ht: hash table to delete
  *
  * Return: void
